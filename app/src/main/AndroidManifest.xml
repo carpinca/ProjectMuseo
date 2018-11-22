@@ -16,7 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomePage"></activity>
+        <activity android:name=".HomePage" />
+        <activity android:name=".HomePage2" />
+        <activity android:name=".ArtIsland" />
+        <activity android:name=".Ayala" />
+        <activity android:name=".BNakpil" />
+        <activity android:name=".BTsinoy" />
+        <activity android:name=".Casa" />
+        <activity android:name=".Destileria" />
+        <activity android:name=".Metro" />
+        <activity android:name=".Money" />
+        <activity android:name=".Pambata" />
+        <activity android:name=".Contemp" />
+        <activity android:name=".National" />
+        <activity android:name=".Pasig"></activity>
     </application>
 
 </manifest>

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".HomePage">
+    tools:context=".HomePage2">
 
     <SearchView
         android:layout_width="match_parent"
@@ -23,8 +23,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="53dp"
-        android:onClick="first"
-        app:srcCompat="@drawable/artisland" />
+        android:onClick="one"
+        app:srcCompat="@drawable/metropolitan" />
 
     <ImageView
         android:id="@+id/art"
@@ -33,8 +33,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/ayala"
         android:layout_marginEnd="20dp"
-        android:onClick="second"
-        app:srcCompat="@drawable/ayala" />
+        android:onClick="two"
+        app:srcCompat="@drawable/money" />
 
     <TextView
         android:id="@+id/textAnthro"
@@ -43,7 +43,7 @@
         android:layout_alignStart="@+id/ayala"
         android:layout_below="@+id/ayala"
         android:textAlignment="center"
-        android:text="Art in Island" />
+        android:text="Metropolitan Museum" />
 
     <TextView
         android:id="@+id/textArt"
@@ -52,25 +52,27 @@
         android:layout_alignStart="@+id/art"
         android:layout_alignTop="@+id/textAnthro"
         android:textAlignment="center"
-        android:text="Ayala Museum" />
+        android:text="Money Museum" />
 
     <ImageView
         android:id="@+id/nakpil"
         android:layout_width="150dp"
         android:layout_height="120dp"
+        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/ayala"
-        android:layout_centerVertical="true"
-        android:onClick="third"
-        app:srcCompat="@drawable/nakpil" />
+        android:layout_marginTop="207dp"
+        android:onClick="three"
+        app:srcCompat="@drawable/pambata" />
 
     <ImageView
         android:id="@+id/tsinoy"
         android:layout_width="150dp"
         android:layout_height="100dp"
+        android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/art"
-        android:layout_centerVertical="true"
-        android:onClick="fourth"
-        app:srcCompat="@drawable/tsinoy" />
+        android:layout_marginTop="218dp"
+        android:onClick="four"
+        app:srcCompat="@drawable/contemp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -79,7 +81,7 @@
         android:layout_alignStart="@+id/ayala"
         android:layout_below="@+id/nakpil"
         android:textAlignment="center"
-        android:text="Bahay Nakpil" />
+        android:text="Museong Pambata" />
 
     <TextView
         android:id="@+id/textView4"
@@ -88,7 +90,8 @@
         android:layout_alignStart="@+id/textArt"
         android:layout_alignTop="@+id/textView3"
         android:textAlignment="center"
-        android:text="Bahay Tsinoy" />
+        android:textSize="10sp"
+        android:text="Museum of Contemporary Art and Design" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -96,8 +99,8 @@
         android:layout_height="120dp"
         android:layout_above="@+id/textView6"
         android:layout_alignStart="@+id/ayala"
-        android:onClick="fifth"
-        app:srcCompat="@drawable/casa" />
+        android:onClick="five"
+        app:srcCompat="@drawable/natural" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -105,9 +108,9 @@
         android:layout_height="100dp"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/art"
-        android:layout_marginBottom="90dp"
-        android:onClick="sixth"
-        app:srcCompat="@drawable/destileria" />
+        android:layout_marginBottom="101dp"
+        android:onClick="six"
+        app:srcCompat="@drawable/pasig" />
 
     <TextView
         android:id="@+id/textView5"
@@ -115,26 +118,28 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/ayala"
         android:layout_below="@+id/imageView5"
-        android:text="Casa Manila"
+        android:text="National Museum of Natural History"
         android:textAlignment="center" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/btnNext"
+        android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/art"
-        android:text="Destileria Limtuaco Museum"
+        android:layout_marginBottom="57dp"
+        android:text="Pasig Cathedral Museum"
         android:textAlignment="center" />
 
     <ImageView
-        android:id="@+id/btnNext"
+        android:id="@+id/btnBack"
         android:layout_width="44dp"
         android:layout_height="31dp"
-        android:layout_alignEnd="@+id/art"
         android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/ayala"
         android:layout_marginBottom="13dp"
-        android:onClick="next"
-        app:srcCompat="@drawable/next" />
+        android:onClick="back"
+        app:srcCompat="@drawable/back" />
+
 
 </RelativeLayout>

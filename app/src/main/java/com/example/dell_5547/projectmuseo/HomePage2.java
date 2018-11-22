@@ -1,80 +1,79 @@
 package com.example.dell_5547.projectmuseo;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class HomePage extends AppCompatActivity {
+public class HomePage2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home_page);
+        setContentView(R.layout.activity_home_page2);
     }
 
-    public void next (View view) {
-        Intent i = null;
 
-        view.getId();
-        i = new Intent(this, HomePage2.class);
-            startActivity(i);
-
-        }
-
-    public void first (View v) {
+    public void back (View v) {
         Intent i = null;
 
         v.getId();
-        i = new Intent(this, ArtIsland.class);
+        i = new Intent(this, HomePage.class);
         startActivity(i);
 
     }
 
-    public void second (View v) {
+    public void one (View v) {
         Intent i = null;
 
         v.getId();
-        i = new Intent(this, Ayala.class);
+        i = new Intent(this, Metro.class);
         startActivity(i);
 
     }
 
-    public void third (View v) {
+    public void two (View v) {
         Intent i = null;
 
         v.getId();
-        i = new Intent(this, BNakpil.class);
+        i = new Intent(this, Money.class);
         startActivity(i);
 
     }
 
-    public void fourth (View v) {
+    public void three (View v) {
         Intent i = null;
 
         v.getId();
-        i = new Intent(this, BTsinoy.class);
+        i = new Intent(this, Pambata.class);
         startActivity(i);
 
     }
 
-    public void fifth (View v) {
+    public void four (View v) {
         Intent i = null;
 
         v.getId();
-        i = new Intent(this, Casa.class);
+        i = new Intent(this, Contemp.class);
         startActivity(i);
 
     }
 
-    public void sixth (View v) {
+    public void five (View v) {
         Intent i = null;
 
         v.getId();
-        i = new Intent(this, Destileria.class);
+        i = new Intent(this, National.class);
         startActivity(i);
 
     }
 
+    public void six (View v) {
+        Intent i = null;
+
+        v.getId();
+        i = new Intent(this, Pasig.class);
+        startActivity(i);
+
+    }
 }
