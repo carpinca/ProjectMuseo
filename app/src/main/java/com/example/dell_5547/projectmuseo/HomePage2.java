@@ -23,7 +23,7 @@ public class HomePage2 extends AppCompatActivity {
 
     }
 
-    public void one (View v) {
+    public void metro (View v) {
         Intent i = null;
 
         v.getId();
@@ -32,7 +32,7 @@ public class HomePage2 extends AppCompatActivity {
 
     }
 
-    public void two (View v) {
+    public void money (View v) {
         Intent i = null;
 
         v.getId();
@@ -41,7 +41,7 @@ public class HomePage2 extends AppCompatActivity {
 
     }
 
-    public void three (View v) {
+    public void pambata (View v) {
         Intent i = null;
 
         v.getId();
@@ -50,16 +50,7 @@ public class HomePage2 extends AppCompatActivity {
 
     }
 
-    public void four (View v) {
-        Intent i = null;
-
-        v.getId();
-        i = new Intent(this, Contemp.class);
-        startActivity(i);
-
-    }
-
-    public void five (View v) {
+    public void national (View v) {
         Intent i = null;
 
         v.getId();
@@ -68,11 +59,20 @@ public class HomePage2 extends AppCompatActivity {
 
     }
 
-    public void six (View v) {
+    public void pasig (View v) {
         Intent i = null;
 
         v.getId();
         i = new Intent(this, Pasig.class);
+        startActivity(i);
+
+    }
+
+    public void agustin (View v) {
+        Intent i = null;
+
+        v.getId();
+        i = new Intent(this, Agustin.class);
         startActivity(i);
 
     }

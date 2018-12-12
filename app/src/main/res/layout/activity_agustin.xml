@@ -5,13 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".Casa">
+    tools:context=".Agustin">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="300dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <TextView
             android:id="@+id/textView"
@@ -21,12 +27,12 @@
             android:layout_marginEnd="85dp"
             android:layout_marginStart="85dp"
             android:layout_marginTop="300dp"
-            android:text="CASA MANILA"
+            android:text="San Agustin Museum"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <TableLayout
             android:layout_width="match_parent"
@@ -55,8 +61,7 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp"
-                    android:text="Plaza San Luis Complex, Intramuros"
-                    android:textSize="12dp"/>
+                    android:text="General Luna Street, Intramuros" />
 
             </TableRow>
 
@@ -82,7 +87,7 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp"
-                    android:text="02-527-4084/02-527-4088" />
+                    android:text="02-527-2746/02-527-4052" />
 
             </TableRow>
 
@@ -108,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp"
-                    android:text="P75 adult, P50 student" />
+                    android:text="P100 adult, P40 children" />
 
             </TableRow>
 
@@ -134,19 +139,23 @@
                     android:layout_height="wrap_content"
                     android:paddingBottom="5dp"
                     android:paddingTop="5dp"
-                    android:text="Tue-Sun | 9am to 6pm" />
+                    android:text="Sun-Mon | 9am to 5pm" />
 
             </TableRow>
         </TableLayout>
 
     </LinearLayout>
 
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
             android:id="@+id/imageView"
@@ -154,7 +163,7 @@
             android:layout_height="211dp"
             android:layout_marginLeft="80dp"
             android:layout_marginTop="80dp"
-            app:srcCompat="@drawable/casa" />
+            app:srcCompat="@drawable/sanagustin" />
 
     </LinearLayout>
 
